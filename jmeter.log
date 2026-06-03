@@ -1,0 +1,999 @@
+2026-06-03 17:50:45,451 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-06-03 17:50:45,467 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2026-06-03 17:50:45,467 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2026-06-03 17:50:45,472 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-06-03 17:50:45,472 INFO o.a.j.JMeter: Version 5.6.3
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: java.version=17.0.19
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: os.name=Linux
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: os.arch=amd64
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: os.version=7.0.8-arch1-1
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: java.awt.headless=true
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-06-03 17:50:45,473 INFO o.a.j.JMeter: Available Processors =8
+2026-06-03 17:50:45,482 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-06-03 17:50:45,483 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-06-03 17:50:45,483 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2026-06-03 17:50:45,483 INFO o.a.j.JMeter: user.dir  =/home/chikamiri/Downloads/software-testing
+2026-06-03 17:50:45,483 INFO o.a.j.JMeter: PWD       =/home/chikamiri/Downloads/software-testing
+2026-06-03 17:50:45,484 INFO o.a.j.JMeter: IP: 192.168.90.78 Name: Nae FullName: Nae
+2026-06-03 17:50:45,494 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/chikamiri/Downloads/software-testing/report'
+2026-06-03 17:50:45,496 INFO o.a.j.s.FileServer: Default base='/home/chikamiri/Downloads/software-testing'
+2026-06-03 17:50:45,497 INFO o.a.j.s.FileServer: Set new base='/home/chikamiri/Downloads/software-testing'
+2026-06-03 17:50:45,693 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-06-03 17:50:45,719 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-06-03 17:50:45,722 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-06-03 17:50:45,725 INFO o.a.j.s.SaveService: Loading file: TestPlan.jmx
+2026-06-03 17:50:45,788 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-03 17:50:45,788 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-03 17:50:45,788 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-03 17:50:45,788 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-03 17:50:45,788 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-06-03 17:50:45,788 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-06-03 17:50:45,804 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-06-03 17:50:45,816 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-06-03 17:50:45,816 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: result.csv
+2026-06-03 17:50:45,816 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
+2026-06-03 17:50:45,817 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-06-03 17:50:45,822 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-06-03 17:50:45,824 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-06-03 17:50:45,824 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-06-03 17:50:45,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-06-03 17:50:45,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-06-03 17:50:45,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-06-03 17:50:45,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-06-03 17:50:45,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-06-03 17:50:45,826 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-06-03 17:50:45,831 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,831 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,831 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,831 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,832 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,832 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,832 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,832 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,833 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,833 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-03 17:50:45,834 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-06-03 17:50:45,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-06-03 17:50:45,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-06-03 17:50:45,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-06-03 17:50:45,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-06-03 17:50:45,835 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-06-03 17:50:45,849 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-06-03 17:50:45,850 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-03 17:50:45,850 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-03 17:50:45,856 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-06-03 17:50:45,857 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-06-03 17:50:45,928 INFO o.a.j.JMeter: Running test (1780483845928)
+2026-06-03 17:50:45,947 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-06-03 17:50:45,947 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group.
+2026-06-03 17:50:45,947 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-06-03 17:50:45,947 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=30 delayedStart=false
+2026-06-03 17:50:45,953 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-06-03 17:50:45,974 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Nae
+2026-06-03 17:50:45,982 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-06-03 17:50:45,984 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-06-03 17:50:45,984 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-06-03 17:50:45,984 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-06-03 17:50:45,985 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-06-03 17:50:45,989 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-06-03 17:50:45,989 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-06-03 17:50:46,242 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-06-03 17:50:46,258 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-06-03 17:50:46,259 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-06-03 17:50:46,470 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-06-03 17:50:46,474 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-06-03 17:50:46,474 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-06-03 17:50:46,549 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-06-03 17:50:47,150 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-06-03 17:50:47,749 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-06-03 17:50:48,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-06-03 17:50:48,740 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-03 17:50:48,740 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-03 17:50:48,860 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2026-06-03 17:50:48,948 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-06-03 17:50:49,031 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2026-06-03 17:50:49,031 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2026-06-03 17:50:49,549 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-06-03 17:50:49,576 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:46145] starting at token ' ' until [6:46146] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 46146.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,605 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:63306] starting at token ' ' until [6:63307] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 63307.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,609 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:65931] starting at token ' ' until [6:65932] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 65932.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,615 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:70654] starting at token ' ' until [6:70655] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 70655.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,621 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:78415] starting at token ' ' until [6:78416] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 78416.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,621 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:78585] starting at token ' ' until [6:78586] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 78586.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,621 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:78604] starting at token ' ' until [6:78605] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 78605.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,622 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:78622] starting at token ' ' until [6:78623] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 78623.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,627 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:87009] starting at token ' ' until [6:87010] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 87010.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,627 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:87041] starting at token ' ' until [6:87042] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 87042.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,639 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:104868] starting at token ' ' until [6:104869] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 104869.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,641 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:106663] starting at token ' ' until [6:106664] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 106664.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,642 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:107189] starting at token ' ' until [6:107190] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 107190.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,648 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:112378] starting at token ' ' until [6:112379] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 112379.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,651 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:115664] starting at token ' ' until [6:115665] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 115665.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:49,658 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:126365] starting at token ' ' until [6:126366] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 6, column 126366.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2026-06-03 17:50:50,148 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-06-03 17:50:50,750 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-06-03 17:50:51,349 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-06-03 17:50:51,948 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-06-03 17:50:52,548 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-06-03 17:50:53,149 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-06-03 17:50:53,750 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-06-03 17:50:54,349 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-06-03 17:50:54,948 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-06-03 17:50:55,549 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-06-03 17:50:56,149 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-06-03 17:50:56,749 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-06-03 17:50:57,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-06-03 17:50:57,949 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2026-06-03 17:50:58,549 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2026-06-03 17:50:59,149 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2026-06-03 17:50:59,749 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2026-06-03 17:51:00,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2026-06-03 17:51:00,628 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2026-06-03 17:51:00,630 INFO o.a.j.r.ResultCollector: Shutdown hook ended
